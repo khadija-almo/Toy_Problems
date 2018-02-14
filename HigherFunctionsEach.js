@@ -6,9 +6,19 @@
         }
     }
 	function absAll(array) {
-	 //your code here
+	 var newarr=[];
+	 
+	 each(numbers , function(x){
+       if (x>=0) {
+       	return x;
+       }
+       else if (x<0) {
+       return x * -1;
+       }
+	 })
+	 return newarr;
 	}
-
+   
 	/*
 	2) using improved each write function that multiply each element in array with
 	 4 if index multiply of 4 
@@ -23,5 +33,9 @@
         }
     }
 	function multiplyOfFour(array) {
-	    //your code here
+		var total = 1;
+	  each(numbers,function(x){
+       total=total*(x[i]*4);
+	  })
+	  return total;
 	}
