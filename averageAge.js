@@ -9,6 +9,7 @@
        {name: {first: 'Hadeel', middle: 'E.', last: 'Lami'}, age: 54}, 
        {name: {first: 'Lina', last: 'MHD'}, age: 14} ,
        {name: {first: 'Obada', last: 'Eddin'}, age: 24} 
+<<<<<<< HEAD
  ];
       
  function averageAge(people) { 
@@ -21,5 +22,11 @@
       return arr/people.length-2;}
  }
  
+=======
+ ]; 
+ function averageAge(people) { 
+       // YOUR CODE HERE 
+ }
+>>>>>>> 527cc09c05ce6b99d3ff750199ad72f2585e7160
 
  averageAge(people); // 43+36+44+24 = 36.74
